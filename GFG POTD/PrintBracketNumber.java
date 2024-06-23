@@ -25,8 +25,8 @@ class PrintBracketNumber {
         String str1 = "(aa(bdc))p(dee)";
         String str2 = "(((()(";
 
-        System.out.println(sol.bracketNumbers(str1)); // Output: [1, 2, 2, 1, 3, 3]
-        System.out.println(sol.bracketNumbers(str2)); // Output: [1, 2, 3, 4, 4, 5]
+        System.out.println(sol.bracketNumbers(str1)); 
+        System.out.println(sol.bracketNumbers(str2)); 
     }
 }
 
